@@ -600,3 +600,34 @@ body .block__margin {
     padding: 0 0;
   }
 }
+@media (min-width: 992px) and (max-width: 1360px) {
+  .container {
+    width: 100%;
+    padding: 0 3%;
+  }
+}
+@media (max-width: 1280px) {
+  .index__title .index__title_container .index__title_buy {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+  .index__title .index__title_container .index__title_buy .buy {
+    margin: 30px 0 0 0;
+  }
+  .index__title .index__title_img {
+    padding: 0 0 0 5%;
+  }
+  .index__title .index__title_img img {
+    max-width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 0 0;
+  }
+  .who__we .who__we_container .who__we_img img {
+    max-width: 450px;
+  }
+  .who__we .who__we_container .who__we_txt .txt {
+    margin: 0 0;
+  }
+}
